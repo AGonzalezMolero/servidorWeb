@@ -27,8 +27,8 @@
             <div id='botoGestioProductesWeb' class='botoMenu none' onclick='navegacio.canviaSeccio("backofficeProductes")'>Gestió productes</div>
             <div id='botoLogoutWeb' class='botoMenu none' onclick='login.tancaLaSessio()'>Sortir</div>
         </div>
-        <div id='frontendMenuMobil' class='flexColumn mobile' ontouchend='amagaMenu(event)'>
-            <div id='menuContainer'>
+        <div id='frontendMenuMobil' class='flexColumn mobile' ontouchend='amagaMenu(event)' style="visibility: hidden; opacity: 0%;">
+            <div id='menuContainer' style="top: 100%;">
                 <div class='botoMenu' onclick='navegacio.canviaSeccio("frontendHome")'>Inici</div>
                 <div class='botoMenu' onclick='navegacio.canviaSeccio("frontendPresentacio")'>Presentació</div>
                 <div class='botoMenu' onclick='navegacio.canviaSeccio("frontendProductes")'>Productes</div>
