@@ -15,6 +15,15 @@
         <script src='/web/script-seccio-frontendproductes.js'></script>
         <script src='/web/script-utils.js'></script>
         <script src='/web/script.js'></script>
+
+        <!-- Icones d'aplicació per a navegadors d'escriptori, webapps iOS i webapps Android -->
+        <!-- Icones generats amb: https://www.favicon-generator.org/ -->
+        <link href="/web/appicons/android-icon-192x192.png" rel="icon" type="image/png" sizes="192x192">
+        <link href="/web/appicons/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/web/appicons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <link href="/web/appicons/manifest.json" rel="manifest">
     </head>
     <body onload='inicia()'>
         <div id='frontendMenuWeb' class='flexRow desktop'>
@@ -27,38 +36,18 @@
             <div id='botoGestioProductesWeb' class='botoMenu none' onclick='navegacio.canviaSeccio("backofficeProductes")'>Gestió productes</div>
             <div id='botoLogoutWeb' class='botoMenu none' onclick='login.tancaLaSessio()'>Sortir</div>
         </div>
-        <div id='frontendMenuMobil' class='flexColumn mobile' ontouchend='amagaMenu(event)'>
-            <div id='menuContainer'>
-                <div class='botoMenu' onclick='navegacio.canviaSeccio("frontendHome")'>Inici</div>
-                <div class='botoMenu' onclick='navegacio.canviaSeccio("frontendPresentacio")'>Presentació</div>
-                <div class='botoMenu' onclick='navegacio.canviaSeccio("frontendProductes")'>Productes</div>
-                <div class='botoMenu' onclick='navegacio.canviaSeccio("frontendContacte")'>Contacte</div>
-                <div id='botoLoginMobil' class='botoMenu' onclick='popups.mostraPopup("popupLogin")'>Login backoffice</div>
-                <div id='botoGestioUsuarisMobil' class='botoMenu none' onclick='navegacio.canviaSeccio("backofficeUsuaris")'>Gestió usuaris</div>
-                <div id='botoGestioProductesMobil' class='botoMenu none' onclick='navegacio.canviaSeccio("backofficeProductes")'>Gestió productes</div>
-                <div id='botoLogoutMobil' class='botoMenu none' onclick='login.tancaLaSessio()'>Sortir</div>
-            </div>
+        <div id='frontendMenuMobil' class='flexColumn mobile'>
+            <div class='botoMenu' onclick='navegacio.canviaSeccio("frontendHome")'>Inici</div>
+            <div class='botoMenu' onclick='navegacio.canviaSeccio("frontendPresentacio")'>Presentació</div>
+            <div class='botoMenu' onclick='navegacio.canviaSeccio("frontendProductes")'>Productes</div>
+            <div class='botoMenu' onclick='navegacio.canviaSeccio("frontendContacte")'>Contacte</div>
+            <div id='botoLoginMobil' class='botoMenu' onclick='popups.mostraPopup("popupLogin")'>Login backoffice</div>
+            <div id='botoGestioUsuarisMobil' class='botoMenu none' onclick='navegacio.canviaSeccio("backofficeUsuaris")'>Gestió usuaris</div>
+            <div id='botoGestioProductesMobil' class='botoMenu none' onclick='navegacio.canviaSeccio("backofficeProductes")'>Gestió productes</div>
+            <div id='botoLogoutMobil' class='botoMenu none' onclick='login.tancaLaSessio()'>Sortir</div>
         </div>
-
-        <div id='fixedTitle'>
-            <div class='center'>
-                <div class='title'>Luxury Travels</div>
-                <div class='subtitle'>Viaja con estilo, viaja con nosotros.</div>
-                <div class='buybutton' onclick='navegacio.canviaSeccio("frontendProductes")'>Comprar</div>
-                <div class='mobile' ontouchend='mostraMenu(event)'><i class='material-icons menubutton'>menu</i></div>
-            </div>
-        </div>
-
         <div id='frontendHome'>
-            <div class="banner">
-                <ul>
-                    <li><img src="/web/imatges/viaje1.jpg"></li>
-                    <li><img src="/web/imatges/viaje2.png"></li>
-                    <li><img src="/web/imatges/viaje3.jpg"></li>
-                    <li><img src="/web/imatges/viaje4.jpg"></li>
-                </ul>
-            </div>
-
+            Pàgina principal
         </div>
         <div id='frontendPresentacio'>
             Pàgina amb una presentacio de l'empresa
@@ -107,7 +96,7 @@
                     <img id='backofficeUsuarisImg' src='/web/imatges/transparent.png' width='100'/>
                     <input id='backofficeUsuarisArxiu' class="dropFile" accept="image/*" type="file" onchange="seccioBackofficeUsuaris.mostraImatge()" />
                 </div>
-
+                
                 <br/>
                 <input type='button' value='Guarda' onclick='seccioBackofficeUsuaris.guardaDadesUsuariAlServidor()'/>
                 <br/>
@@ -115,7 +104,6 @@
                 <div id='backofficeUsuarisPopupLoading' class='none'>Carregant ...</div>
                 <div id='backofficeUsuarisPopupError' class='none'>Error al guardar les dades ...</div>
             </div>
-            <div data-kind="hub-microsite-feature-card" data-uid="6cbd2d01688ec8a702a2113cf94f4018" margin-top="no" margin-bottom="no" padding-top="0" padding-bottom="15px" class="col-3 _col_1bsks_1"><a data-kind="hub-anchor" lazy-for="anchor" target="_blank" rel="follow noopener noreferrer" href="https://www.rumbo.es/es/ofertas-especiales/london-eye.html?int_type=CMS_DP&amp;int_campaign=MHP&amp;int_detail=FB_9_LONDON_EYE_CNT"><div class="feature-card-inner sg-border"><div class="feature-card-image-container"><div data-kind="hub-background" data-uid="5d082deedea513620aec5b4ee57caa77" lazy-for="background" class="sg-background"><div class="image" style="background-image: url(&quot;https://res.cloudinary.com/lastminute-contenthub/image/upload/c_limit,w_768,h_999999/v1582633222/DAM/Campaigns/2020/London%20Eye/LP/common-assets/LE_370x205HPpod_bluebrands.jpg&quot;);"></div></div></div><div class="feature-card-text-container"><h4 class="feature-card-title sg-title">Especial Londres</h4><p class="feature-card-text sg-text">Reserva tu vuelo + hotel: entradas a lastminute.com London Eye incluidas</p><p class="feature-card-cta sg-cta">Ver ofertas &gt;</p></div></div></a></div>
         </div>
     </body>
 </html>

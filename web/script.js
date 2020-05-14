@@ -38,38 +38,3 @@ function iniciaSeccio(seccio) {
     }
 }
 
-// Función del menú para móvil
-function mostraMenu (evt) {
-    let refBody = document.getElementsByTagName('body')[0],
-        refSmall = document.getElementById('frontendMenuMobil'),
-        refContainer = document.getElementById('menuContainer'),
-        estilSmall = window.getComputedStyle(refSmall, ''),
-        estilContainer = window.getComputedStyle(refContainer, ''),
-        midaSmall = parseInt(estilSmall.getPropertyValue('height'))
-        midaContainer = parseInt(estilContainer.getPropertyValue('height')),
-        altura = midaSmall - midaContainer + 10
-
-    refBody.style.overflow = 'hidden' // Treure scroll
-    refSmall.style.visibility = 'visible'
-    refSmall.style.opacity = 1
-
-    refContainer.style.top = altura + 'px'
-}
-function amagaMenu (evt) {
-    let refBody = document.getElementsByTagName('body')[0],
-        refSmall = document.getElementById('frontendMenuMobil'),
-        refContainer = document.getElementById('menuContainer')
-
-    refBody.style.overflow = 'auto' // Recuperar scroll
-
-    refSmall.style.opacity = 0
-    setTimeout(() => { refSmall.style.visibility = 'hidden' }, 500)
-
-    refContainer.style.top = '100%'
-}
-function navega (evt, lloc) {
-    evt.stopPropagation() // Evitar que executi 'amagaMenu' des de 'menuSmall'
-    //location.href = lloc
-    console.log('Navegar a ', lloc)
-}
-
