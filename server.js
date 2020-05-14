@@ -7,7 +7,7 @@ const usuarisLib    = require('./servidor/usuaris.js')
 const utilsLib      = require('./servidor/utils.js')
 
 var app = express()
-var port = process.env.PORT || 3002
+var port = 3000
 var db = new dbLib()
 var productes = new productesLib()
 var usuaris = new usuarisLib()
@@ -27,11 +27,10 @@ app.use('/call', cridaAJAX)
 
 // Rutes estàtiques per servir arxius
 app.use('/web', express.static(path.join(__dirname + '/web/')))
-app.use('/favicon.ico', (crida, resposta) => { resposta.sendFile(path.join(__dirname + '/web/appicons/favicon.ico')) })
 app.use('/', (crida, resposta) => { resposta.sendFile(path.join(__dirname + '/web/index.html')) })
 
 // Posar el servidor en funcionament
-app.listen(port, () => console.log('App listening on port:', port, '\nNavigate to: http://localhost:' + port))
+app.listen(port, () => console.log('Example app listening on port:', port))
 
 
 // Funcions personalitzades
