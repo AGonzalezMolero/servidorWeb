@@ -20,7 +20,7 @@ class Obj {
         this.port           = 3306
         this.db             = 'serverDB_agonzalez'
         this.usr            = 'agonzalez'
-        this.pwd            = 'holaamigo'
+        this.pwd            = '1234'
         this.pool           = null
 
         this.logCyan        = '\x1b[36m%s\x1b[0m '
