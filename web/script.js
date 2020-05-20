@@ -38,3 +38,51 @@ function iniciaSeccio(seccio) {
     }
 }
 
+async function mostraMenu (evt) {
+    let refBody = document.getElementsByTagName('body')[0],
+        refSmall = document.getElementById('menuSmall'),
+        refContainer = document.getElementById('menuContainer'),
+        estilContainer = window.getComputedStyle(refContainer, ''),
+        midaContainer = 0
+
+    evt.preventDefault()
+
+    refBody.style.overflow = 'hidden'   // Treure scroll
+    refSmall.style.display = 'flex'     // Mostrar la capa 'menuSmall'
+    await promiseWait(1)                // Esperar que es processi el canvi de 'display' anterior
+
+    refSmall.style.opacity = 1          // Animar la opacitat del fons
+
+                                        // Animar 'menuContainer' perquè apareixi
+    midaContainer = parseInt(estilContainer.getPropertyValue('height'), 10)
+    refContainer.style.transform =  'translateY(-' + midaContainer + 'px)'
+}
+async function amagaMenu (evt) {
+    let refBody = document.getElementsByTagName('body')[0],
+        refSmall = document.getElementById('menuSmall'),
+        refContainer = document.getElementById('menuContainer')
+
+    evt.preventDefault()
+
+    refBody.style.overflow = 'auto'     // Recuperar scroll
+
+    refSmall.style.opacity = 0          // Animar la opacitat de 'menuSmall'
+                                        // Animar 'menuContainer' perquè s'amagui
+    refContainer.style.transform = 'translateY(0)'
+
+    await promiseWait(500)              // Esperar a que acabin les animacions
+    refSmall.style.display = 'none'     // Treure 'menuSmall' del dibuix de la pàgina per evitar problemes d'interacció
+}
+function navega (evt, lloc) {
+    evt.stopPropagation() // Evitar que executi 'amagaMenu' des de 'menuSmall'
+    //location.href = lloc
+    console.log('Navegar a ', lloc)
+}
+
+// Espera una estona abans de seguir amb el codi
+async function promiseWait (time) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => { resolve() }, time)
+    })
+}
+
