@@ -271,7 +271,22 @@ body > #frontendProductes > #productesContinguts {
     background-size: cover;
     transition: .3s all;
     color: whitesmoke;
-    
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.lista-viajes .viaje2{
+    padding: 30px;
+    border-radius: 5px;
+    background: #d5d5d5;
+    background-image: url('https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    transition: .3s all;
+    color: whitesmoke;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 .lista-viajes .viaje:hover{
