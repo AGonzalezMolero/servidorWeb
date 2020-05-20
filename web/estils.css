@@ -352,6 +352,21 @@ body > #frontendProductes > #productesContinguts {
 }
 /* Cierre cajita de viajes */
 
+/* Footer */
+
+footer{
+    padding: 30px 20px;
+    background-color: #6ba6f2;
+    border-left: 17px solid rgba (15, 15, 121, .);
+}
+
+footer p a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* Cierre footer */
+
 .producte {
     border: solid 1px black;
     margin: 16px;
