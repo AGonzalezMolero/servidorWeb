@@ -256,6 +256,7 @@ body > #frontendHome {
     padding: 10px;
     border-radius: 3px;
     background: blue;
+    margin-bottom: 10px;
 }
 
 .lista-viajes .viaje h4{
