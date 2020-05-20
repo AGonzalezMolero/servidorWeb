@@ -29,7 +29,17 @@ body > div {
 }
 body > #frontendHome {
     display: flex;
+    flex-wrap: wrap;
 }
+
+body > #frontendProductes {
+    display: none;
+}
+
+body > #frontendProductes > #productesContinguts {
+    width: 100%;
+}
+
 .botoMenu {
     color: whitesmoke;
     display: block;
@@ -278,5 +288,7 @@ body > #frontendHome {
     border: solid 1px black;
     margin: 16px;
     padding: 8px;
-
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
 }
