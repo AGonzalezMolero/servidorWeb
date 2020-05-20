@@ -246,3 +246,11 @@ body > #frontendHome {
 #fixedTitle > .center > .mobile > .menubutton {
     font-size: 1.5em !important;
 }
+
+.container{
+    padding: 10px;
+}
+
+.lista-viajes .viaje{
+    width: 33%;
+}
