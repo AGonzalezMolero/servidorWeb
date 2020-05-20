@@ -17,7 +17,7 @@ class ObjSeccioFrontendProductes {
         refLoading.style.display = 'flex'
 
         // Demanem el llistat de productes al servidor
-        objRebut = await promiseCallServer('POST', '/call/llistatProductes', {})
+        objRebut = await promiseCallServer('POST', '/call/llistatProductes', { id: id Producte })
 
         // Transformem l'objecte rebut en codi HTML
         if (objRebut.resultat === 'ok') {
