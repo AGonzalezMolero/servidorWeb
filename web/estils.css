@@ -29,13 +29,17 @@ body > div {
 }
 body > #frontendHome {
     display: flex;
-    flex-wrap; wrap;
+    flex-wrap: wrap;
 }
 
 body > #frontendProductes {
     display: none;
 }
 
+body > #frontendProductes > #productesContinguts {
+    width: 100%;
+    flex-wrap: wrap;
+}
 
 .botoMenu {
     color: whitesmoke;
