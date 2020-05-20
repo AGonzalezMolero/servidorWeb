@@ -317,7 +317,7 @@ body > #frontendProductes > #productesContinguts {
     background-image: url('https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-size: cover;
     transition: .3s all;
-    color: whitesmoke;
+    color: rgb(240, 164, 0);
     cursor: pointer;
     display: inline-block;
     margin-bottom: 10px;
@@ -339,7 +339,7 @@ body > #frontendProductes > #productesContinguts {
 
 
 .lista-viajes .viaje2 a{
-    color: #ff7b00;
+    color: #ffffff;
     font-weight: 800;
     text-decoration: none;
     text-transform: uppercase;
