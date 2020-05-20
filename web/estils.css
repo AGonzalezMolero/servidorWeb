@@ -264,9 +264,11 @@ body > #frontendProductes > #productesContinguts {
 }
 
 .lista-viajes .viaje{
-    padding: 10px;
+    padding: 30px;
     border-radius: 5px;
     background: #d5d5d5;
+    background-image: url('https://images.pexels.com/photos/590478/pexels-photo-590478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
     
 }
 
@@ -276,6 +278,7 @@ body > #frontendProductes > #productesContinguts {
 }
 
 .lista-viajes .viaje p{
+    margin-bottom: 10px;
 
 }
 
