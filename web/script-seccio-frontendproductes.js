@@ -28,7 +28,7 @@ class ObjSeccioFrontendProductes {
                 codiHTML = codiHTML + '<h3>' + valor.nom +'</h3>'
                 codiHTML = codiHTML + '<div>' + valor.descripcio +'</div>'
                 codiHTML = codiHTML + '<div>' + valor.preu +' €</div>'
-                codiHTML = codiHTML + '<div/>'
+                codiHTML = codiHTML + '</div>'
             }
         }
 
