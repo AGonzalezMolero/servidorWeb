@@ -253,4 +253,20 @@ body > #frontendHome {
 
 .lista-viajes .viaje{
     width: 33%;
+    padding: 10px;
+    border-radius: 3px;
+    background: blue;
+}
+
+.lista-viajes .viaje h4{
+    font-size: 30px;
+
+}
+
+.lista-viajes .viaje p{
+
+}
+
+.lista-viajes .viaje a{
+
 }
