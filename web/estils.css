@@ -281,6 +281,35 @@ body > #frontendProductes > #productesContinguts {
     margin-bottom: 10px;
 }
 
+
+.lista-viajes .viaje:hover{
+    box-shadow: 1px 1px 4px #000;
+}
+
+.lista-viajes .viaje h4{
+    font-size: 30px;
+
+}
+
+.lista-viajes .viaje p{
+    margin-bottom: 10px;
+
+}
+
+
+.lista-viajes .viaje a{
+    color: #ffffff;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #df3838;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 3px;
+
+
+}
+
 .lista-viajes .viaje2{
     padding: 30px;
     border-radius: 5px;
@@ -294,13 +323,10 @@ body > #frontendProductes > #productesContinguts {
     margin-bottom: 10px;
 }
 
-.lista-viajes .viaje:hover{
-    box-shadow: 1px 1px 4px #000;
-}
-
 .lista-viajes .viaje2:hover{
     box-shadow: 1px 1px 4px #000;
 }
+
 .lista-viajes .viaje h4{
     font-size: 30px;
 
@@ -310,6 +336,7 @@ body > #frontendProductes > #productesContinguts {
     margin-bottom: 10px;
 
 }
+
 
 .lista-viajes .viaje a{
     color: #ffffff;
