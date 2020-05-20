@@ -29,7 +29,7 @@ body > div {
 }
 body > #frontendHome {
     display: flex;
-    flex-rap
+    flex-wrap; wrap;
 }
 
 body > #frontendProductes {
