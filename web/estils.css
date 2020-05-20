@@ -71,6 +71,8 @@ body > #frontendProductes > #productesContinguts {
     background-color: lightcyan;
     display: none;
 }
+
+/* Banner */
 .banner{
     width: 100%;
     margin: auto;
@@ -111,6 +113,8 @@ body > #frontendProductes > #productesContinguts {
 .mobile {
     display: flex;
 }
+/* Cierre banner */
+
 #frontendMenuWeb {
     align-items: center;
     color: white;
@@ -259,6 +263,7 @@ body > #frontendProductes > #productesContinguts {
     font-size: 1.5em !important;
 }
 
+/* Cajita de viajes */
 .container{
     padding: 10px;
 }
@@ -293,6 +298,9 @@ body > #frontendProductes > #productesContinguts {
     box-shadow: 1px 1px 4px #000;
 }
 
+.lista-viajes .viaje2:hover{
+    box-shadow: 1px 1px 4px #000;
+}
 .lista-viajes .viaje h4{
     font-size: 30px;
 
@@ -315,6 +323,7 @@ body > #frontendProductes > #productesContinguts {
 
 
 }
+/* Cierre cajita de viajes */
 
 .producte {
     border: solid 1px black;
