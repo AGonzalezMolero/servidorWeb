@@ -272,3 +272,12 @@ body > #frontendHome {
 .lista-viajes .viaje a{
 
 }
+
+.productos {
+    border: solid 1px black;
+    margin: 16px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+}
