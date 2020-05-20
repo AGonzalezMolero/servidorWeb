@@ -269,7 +269,13 @@ body > #frontendProductes > #productesContinguts {
     background: #d5d5d5;
     background-image: url('https://images.pexels.com/photos/590478/pexels-photo-590478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-size: cover;
+    transition: .3s all;
+    color: whitesmoke;
     
+}
+
+.lista-viajes .viaje:hover{
+    box-shadow: 1px 1px 4px #000;
 }
 
 .lista-viajes .viaje h4{
