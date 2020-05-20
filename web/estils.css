@@ -253,11 +253,10 @@ body > #frontendHome {
 
 .lista-viajes .viaje{
     width: 33%;
-    margin: 1000px;
     padding: 10px;
     border-radius: 3px;
     background: blue;
-    margin-bottom: 10px;
+    margin: 10px;
     
 }
 
