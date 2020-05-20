@@ -38,6 +38,7 @@ body > #frontendProductes {
 
 body > #frontendProductes > #productesContinguts {
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .botoMenu {
