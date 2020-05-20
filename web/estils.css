@@ -416,9 +416,11 @@ footer p a{
 
 /* Productos */
 .producte {
+    border: solid 1px black;
     padding: 30px;
     border-radius: 5px;
     background: #d5d5d5;
+    background-image: url('https://images.pexels.com/photos/2931007/pexels-photo-2931007.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
     background-size: cover;
     transition: .3s all;
     color: rgb(0, 0, 0);
@@ -429,6 +431,16 @@ footer p a{
 
 .producte:hover{
     box-shadow: 1px 1px 4px #000;
-    transition: .3s all;
+        transition: .3s all;
     color: rgb(0, 0, 0);
+}
+
+
+
+border: solid 1px black;
+margin: 16px;
+padding: 8px;
+display: flex;
+flex-direction: column;
+max-width: 250px;
 }
