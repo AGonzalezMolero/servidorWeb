@@ -133,15 +133,17 @@
             <form action="ejemplo.php" method="get">
                 <br>Nom:</br>
                 <input type="text" name="Nombre" size="20" value="Tu nombre">
+                <br>Correu electrónico:<br><input type="email" name="correu electrónico" size="20">
                 <br>Teléfono:<br><input type="tel" name="Teléfono">
-                <br>Correu electrònic:<br><input type="email" name="correu electrònic" size="20">
                 <br>Estat civil:
                   <br><input type="radio" name="ecivil" value="s"checked>Solter/era
                   <br><input type="radio" name="ecivil" value="c">Casat/ada
               <br>
                 <br>Situació laboral:
-                  <br><input type="checkbox" name="slaboral" checked>Treballa
-                  <br><input type="checkbox" name="slaboral">Estudia
+                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+                    <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+                    <span class="mdl-checkbox__label">He leído el aviso legal y la política de privacidad</span>
+                  </label>
               <br>
               <br>
             Nivel de gandulitat:
