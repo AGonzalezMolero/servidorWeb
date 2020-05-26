@@ -130,14 +130,22 @@
             </head>
           <body>
               <h1>Contáctanos</h1>
+              <br>
+              <br>
             <form action="ejemplo.php" method="get">
                 <br>Nom:</br>
                 <input type="text" name="Nombre" size="20" value="Tu nombre">
                 <br>Correu electrónico:<br><input type="email" name="correu electrónico" size="20">
                 <br>Teléfono:<br><input type="tel" name="Teléfono">
-                <br>Estat civil:
-                  <br><input type="radio" name="ecivil" value="s"checked>Solter/era
-                  <br><input type="radio" name="ecivil" value="c">Casat/ada
+                <br>¿Qué problema tienes?:
+                <select name="menu">
+                    <option value='Día'>Los días que quiero escoger no están disponibles</option>
+                    <option value='Cancelar'>Quiero cancelar un vuelo</option>
+                    <option value='Confirmación'>He pagado un viaje pero aún no se ha confirmado</option>
+                    <option value='Reembolso'>No se ha entregado mi reembolso</option>
+                    <option value='Alojamiento'>Alojamiento no disponible</option>
+                    <option value='Sugerencia'>Sugerencias</option>
+                </select>
               <br>
               <br>
             Provincias:
@@ -195,8 +203,8 @@
                 <option value='zamora'>Zamora</option>
                 <option value='zaragoza'>Zaragoza</option>
             </select>
-            <br>Cuéntanos:<br><input type="email" name="correu electrónico" size="20">
-            <br>Aviso Legal:<br><textarea class="fkTextArea w379h100" id="com" name="comentario" placeholder=""></textarea>
+            <br>Cuéntanos:<br><textarea class="fkTextArea w379h100" id="com" name="comentario" placeholder=""></textarea>
+            <br>Aviso Legal:<br>
             <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
                 <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
                 <span class="mdl-checkbox__label">He leído el aviso legal y la política de privacidad</span>
