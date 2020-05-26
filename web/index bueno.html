@@ -121,74 +121,101 @@
             <div id='productesContinguts'></div>
         </div>
         <div id='frontendContacte'>
-            <body>
-                <h1>Formulari</h1>
-          
-              <form action="formlario.php" method="get">
-                <form action="#">
-                  <div class="mdl-textfield mdl-js-textfield">
-                    <input class="mdl-textfield__input" type="text" id="sample1">
-                    <label class="mdl-textfield__label" for="sample1">Nom</label>
-                  </div>
-                </form>
-          
-                <form action="#">
-                  <div class="mdl-textfield mdl-js-textfield">
-                    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
-                    <label class="mdl-textfield__label" for="sample2">Telèfon</label>
-                    <span class="mdl-textfield__error">Aquest no és un nombre correcte!</span>
-                  </div>
-                </form>
-          
-                <form action="#">
-                  <div class="mdl-textfield mdl-js-textfield">
-                    <input class="mdl-textfield__input" type="text" id="sample1">
-                    <label class="mdl-textfield__label" for="sample1">Correu electrònic</label>
-                  </div>
-          
-                  <br>
-                  <b class="etiqueta" >Estat civil</b>
-                  <br>
-                  <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
-                    <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
-                    <span class="mdl-radio__label">Solter</span>
-                  </label>
-                  <br>
-                  <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
-                    <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
-                    <span class="mdl-radio__label">Casat</span>
-                  </label>
-                  <br>
-          
-                  <br> <b class="etiqueta">Situació laboral:</b>
-                  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
-                    <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
-                    <span class="mdl-checkbox__label">Treballa</span>
-                  </label>
-                  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
-                    <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
-                    <span class="mdl-checkbox__label">Estudia</span>
-                  </label>
-          
-                  <br>
-                  <br>
-                  <b class="etiqueta" >Nivel de gandulitat</b>
-                  <br>
-          
-                  <div class="mdl-textfield mdl-js-textfield">
-                      <select class="mdl-textfield__input" name="">
-                        <option value="">Poc gandul</option>
-                        <option value="">Gandul</option>
-                        <option value="">Molt gandul</option>
-                      </select>
-                  </div>
-          
-                  <br><br>
-                    <br><input type="submit" value="Enviar">
-                  </form>
-                </body>
-
-          
+            <head>
+                <meta charset='utf-8'/>
+                <title>Contacto</title>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+                <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+                <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+            </head>
+          <body>
+            <form action="ejemplo.php" method="get">
+                <br>Nombre:</br>
+                <input type="text" name="Nombre" size="20" value="Tu nombre">
+                <br>Correu electrónico:<br><input type="email" name="correu electrónico" size="20">
+                <br>Teléfono:<br><input type="tel" name="Teléfono">
+                <br>
+                <br>
+                <br>¿Qué problema tienes?:
+                <select name="menu">
+                    <option value='Día'>Los días que quiero escoger no están disponibles</option>
+                    <option value='Cancelar'>Quiero cancelar un vuelo</option>
+                    <option value='Confirmación'>He pagado un viaje pero aún no se ha confirmado</option>
+                    <option value='Reembolso'>No se ha entregado mi reembolso</option>
+                    <option value='Alojamiento'>Alojamiento no disponible</option>
+                    <option value='Sugerencia'>Sugerencias</option>
+                </select>
+              <br>
+              <br>
+            Provincias:
+            <select name="menu">
+                <option value='alava'>Álava</option>
+                <option value='albacete'>Albacete</option>
+                <option value='alicante'>Alicante/Alacant</option>
+                <option value='almeria'>Almería</option>
+                <option value='asturias'>Asturias</option>
+                <option value='avila'>Ávila</option>
+                <option value='badajoz'>Badajoz</option>
+                <option value='barcelona'>Barcelona</option>
+                <option value='burgos'>Burgos</option>
+                <option value='caceres'>Cáceres</option>
+                <option value='cadiz'>Cádiz</option>
+                <option value='cantabria'>Cantabria</option>
+                <option value='castellon'>Castellón/Castelló</option>
+                <option value='ceuta'>Ceuta</option>
+                <option value='ciudadreal'>Ciudad Real</option>
+                <option value='cordoba'>Córdoba</option>
+                <option value='cuenca'>Cuenca</option>
+                <option value='girona'>Girona</option>
+                <option value='laspalmas'>Las Palmas</option>
+                <option value='granada'>Granada</option>
+                <option value='guadalajara'>Guadalajara</option>
+                <option value='guipuzcoa'>Guipúzcoa</option>
+                <option value='huelva'>Huelva</option>
+                <option value='huesca'>Huesca</option>
+                <option value='illesbalears'>Illes Balears</option>
+                <option value='jaen'>Jaén</option>
+                <option value='acoruña'>A Coruña</option>
+                <option value='larioja'>La Rioja</option>
+                <option value='leon'>León</option>
+                <option value='lleida'>Lleida</option>
+                <option value='lugo'>Lugo</option>
+                <option value='madrid'>Madrid</option>
+                <option value='malaga'>Málaga</option>
+                <option value='melilla'>Melilla</option>
+                <option value='murcia'>Murcia</option>
+                <option value='navarra'>Navarra</option>
+                <option value='ourense'>Ourense</option>
+                <option value='palencia'>Palencia</option>
+                <option value='pontevedra'>Pontevedra</option>
+                <option value='salamanca'>Salamanca</option>
+                <option value='segovia'>Segovia</option>
+                <option value='sevilla'>Sevilla</option>
+                <option value='soria'>Soria</option>
+                <option value='tarragona'>Tarragona</option>
+                <option value='santacruztenerife'>Santa Cruz de Tenerife</option>
+                <option value='teruel'>Teruel</option>
+                <option value='toledo'>Toledo</option>
+                <option value='valencia'>Valencia/Valéncia</option>
+                <option value='valladolid'>Valladolid</option>
+                <option value='vizcaya'>Vizcaya</option>
+                <option value='zamora'>Zamora</option>
+                <option value='zaragoza'>Zaragoza</option>
+            </select>
+            <br>
+            <br>Cuéntanos:<br><textarea class="fkTextArea w379h100" id="com" name="comentario" placeholder=""></textarea>
+            <br>
+            <br>Aviso Legal:<br>
+            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+                <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+                <span class="mdl-checkbox__label">He leído el aviso legal y la política de privacidad</span>
+              </label>
+          <br>
+            <br><br>
+                <br><input type="submit" value="Enviar">
+            </form>
+          </body>
+        </div>
         <div id='backofficeUsuaris'>
             <div id='backofficeUsuarisLoading'>Carregant usuaris ...</div>
             <div id='backofficeUsuarisContinguts' class='flexColumn'></div>
