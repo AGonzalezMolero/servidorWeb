@@ -509,3 +509,12 @@ footer p a{
     font-weight: 300;
     text-align: justify;
 }
+
+.bloque-presentacion{
+    display: flex;
+}
+
+.bloque-presentacion .inner-bloque-presentacion{
+    width: 100%;
+
+}
