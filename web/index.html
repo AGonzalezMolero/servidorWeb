@@ -104,9 +104,6 @@
                    </div> 
                 </div>
             </section>
-
-            <br>
-
             <section class="contenedor-presentacion2">
                 <div class="contenedor-presentacion2">
                    <div class="contenido-textos2">
@@ -125,6 +122,39 @@
         </div>
         <div id='frontendContacte'>
             Pàgina amb informacio de contacte
+            <head>
+                <meta charset='utf-8'/>
+                <title>Ejercicio 5</title>
+                <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+                <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+                <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+            </head>
+          <body>
+              <h1>Formulari</h1>
+            <form action="ejemplo.php" method="get">
+                <br>Nom:</br>
+                <input type="text" name="Nom" size="20" value="Toni">
+                <br>Telèfon:<br><input type="tel" name="Ttelèfon">
+                <br>Correu electrònic:<br><input type="email" name="correu electrònic" size="20">
+                <br>Estat civil:
+                  <br><input type="radio" name="ecivil" value="s"checked>Solter/era
+                  <br><input type="radio" name="ecivil" value="c">Casat/ada
+              <br>
+                <br>Situació laboral:
+                  <br><input type="checkbox" name="slaboral" checked>Treballa
+                  <br><input type="checkbox" name="slaboral">Estudia
+              <br>
+              <br>
+            Nivel de gandulitat:
+            <select name="menu">
+              <option value="poc"> Poc gandul</option>
+              <option value=normal >Gandul</option>
+              <option value=molt>Molt gandul</option>
+            </select>
+            <br><br>
+                <br><input type="submit" value="Enviar">
+            </form>
+          </body>
         </div>
         <div id='backofficeUsuaris'>
             <div id='backofficeUsuarisLoading'>Carregant usuaris ...</div>
