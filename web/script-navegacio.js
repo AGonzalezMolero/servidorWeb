@@ -32,7 +32,7 @@ class ObjNavegacio {
 
         // S'amaga la seccio que estava visible i es mostra la que s'ha demanat
         refActual.style.display = 'none'
-        refNova.style.display = 'flex'
+        refNova.style.display = 'block'
         
         // La seccio actual passa a ser la que s'ha demanat
         this.seccioActual = seccioNova
