@@ -432,5 +432,20 @@ footer p a{
     background-color: #707070;
 }
 
+/* Cierre Productos */
+
+/* Presentación */
+
+.contenedor-presentacion{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.imagen-avion{
+    width: 48%;
+}
+
+
 
 
