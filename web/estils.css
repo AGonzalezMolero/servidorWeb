@@ -442,8 +442,9 @@ footer p a{
 
 }
 
-.imagen-avion{
-    width: 20%;
+.imagen-presentacion{
+    width: 20vw;
+    height: 20vw;
 }
 .contenedor-presentacion .contenido-textos{
     width: 48%;
@@ -479,9 +480,6 @@ footer p a{
 
 }
 
-.imagen-seguro{
-    width: 20%;
-}
 .contenedor-presentacion2 .contenido-textos2{
     width: 48%;
 }
