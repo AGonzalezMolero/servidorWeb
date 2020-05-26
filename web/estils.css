@@ -436,13 +436,6 @@ footer p a{
 
 /* Presentación */
 
-.titulo-presentacion{
-    color: #642a73;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 60px;
-}
-
 .contenedor-presentacion{
     display: flex;
     justify-content: space-evenly;
@@ -462,7 +455,7 @@ footer p a{
 }
 
 .contenido-textos h3 span{
-    background: #4d0686;
+    background: red;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
