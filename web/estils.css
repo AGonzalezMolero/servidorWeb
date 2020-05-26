@@ -436,6 +436,13 @@ footer p a{
 
 /* Presentación */
 
+.titulo-presentacion{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
 .contenedor-presentacion{
     display: flex;
     justify-content: space-evenly;
@@ -466,6 +473,12 @@ footer p a{
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     margin-right: 3px;
 
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
 }
 
 
