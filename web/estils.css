@@ -388,8 +388,12 @@ body > #frontendProductes > #productesContinguts {
     padding: 5px 10px;
     display: inline-block;
     border-radius: 3px;
-
-
+    border: solid 1px black;
+margin: 16px;
+padding: 8px;
+display: flex;
+flex-direction: column;
+max-width: 250px;
 }
 /* Cierre cajita de viajes */
 
@@ -403,7 +407,6 @@ footer{
     left: 0;
     right: 0;
     bottom: 0;
-
 }
 
 footer p a{
@@ -437,10 +440,3 @@ footer p a{
 
 
 
-border: solid 1px black;
-margin: 16px;
-padding: 8px;
-display: flex;
-flex-direction: column;
-max-width: 250px;
-}
