@@ -542,6 +542,5 @@ footer p a{
 }
 
 .detalle.producto img {
-    width: 20vw;
-    height: 20vw;
+    background-size: cover;
 }
