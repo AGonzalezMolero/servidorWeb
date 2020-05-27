@@ -541,7 +541,7 @@ footer p a{
     }
 }
 
-.detalle.producto img {
+.imagen-producto{
     max-width: 75%;
     text-align: center;
 }
