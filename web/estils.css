@@ -542,5 +542,6 @@ footer p a{
 }
 
 .detalle.producto img {
-    max-width: 75%;
+    width: 20vw;
+    height: 20vw;
 }
