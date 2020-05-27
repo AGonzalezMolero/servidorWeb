@@ -519,6 +519,12 @@ footer p a{
     text-align: center;
 }
 
+@media only screen and (max-device-width: 599px) {
+    .detalle-producto {
+        max-width: 100%;
+    }
+}
+
 .detalle-producto p {
     color: grey;
     font-size: 2em;
@@ -526,6 +532,13 @@ footer p a{
     text-align: justify;
     max-width: 75%;
     margin: 2em auto;
+}
+
+@media only screen and (max-device-width: 599px) {
+    .detalle-producto p {
+        font-size: 1.25em;
+        max-width: 90%;
+    }
 }
 
 .detalle.producto img {
