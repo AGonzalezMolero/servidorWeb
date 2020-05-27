@@ -507,3 +507,14 @@ footer p a{
     font-weight: 300;
     text-align: justify;
 }
+
+/* Cierre Presentación */
+
+/* Contenido Productos */
+.frontendProducte&1  p {
+    color: grey;
+    font-size: 2em;
+    font-weight: lighter;
+    text-align: justify;
+    max-width: 75%;
+    margin: 2em auto;
