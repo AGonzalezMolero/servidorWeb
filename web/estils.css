@@ -511,6 +511,14 @@ footer p a{
 /* Cierre Presentación */
 
 /* Contenido Productos */
+
+.detalle-producto{
+    display: block;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
 .detalle-producto p {
     color: grey;
     font-size: 2em;
