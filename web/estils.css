@@ -317,7 +317,7 @@ body > #frontendProductes > #productesContinguts {
     background-image: url('https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-size: cover;
     transition: .3s all;
-    color: rgb(0, 0, 0);
+    color: #fff;
     cursor: pointer;
     display: inline-block;
     margin-bottom: 10px;
@@ -358,7 +358,7 @@ body > #frontendProductes > #productesContinguts {
     background-image: url('https://images.pexels.com/photos/2931007/pexels-photo-2931007.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
     background-size: cover;
     transition: .3s all;
-    color: rgb(0, 0, 0);
+    color: whitesmoke;
     cursor: pointer;
     display: inline-block;
     margin-bottom: 10px;
