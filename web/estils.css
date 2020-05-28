@@ -560,5 +560,21 @@ footer p a{
     height: 200px;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
 }
 
+.caja-clientes .caja-cliente img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+
+.caja-clientes .caja-cliente > .cajita-cliente-texto{
+    width: 60€;
+    color: #fff;
+}
