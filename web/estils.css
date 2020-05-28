@@ -576,7 +576,6 @@ footer p a{
     height: 100px;
     object-fit: cover;
     border: 3px solid #fff;
-    border-radius: 50%;
     display: block;
 }
 
