@@ -545,3 +545,20 @@ footer p a{
     max-width: 75%;
     text-align: center;
 }
+
+/* Que opinan los clientes */
+
+.caja-clientes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caja-cliente{
+    background: red;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
