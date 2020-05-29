@@ -30,15 +30,15 @@ class Obj {
             try {
                 sql = 'CREATE TABLE productes (id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, nom VARCHAR(50) NOT NULL, descripcio TEXT, preu INT(6), imatge VARCHAR(255))'
                 await db.promiseQuery(sql)
-                sql = 'INSERT INTO productes (nom, descripcio, preu, imatge) VALUES ("Ordenador", "Ordenador Gaming", 500, "/web/imatges/pc.jpg")'
+                sql = 'INSERT INTO productes (nom, descripcio, preu, imatge) VALUES ("Japon", "Viaje a Japon", 1500, "/web/imatges/japonproducto.jpg")'
                 await db.promiseQuery(sql)
-                sql = 'INSERT INTO productes (nom, descripcio, preu, imatge) VALUES ("Monitor", "Monitor Gaming", 190, "/web/imatges/monitor.jpg")'
+                sql = 'INSERT INTO productes (nom, descripcio, preu, imatge) VALUES ("Barcelona", "Viaje a Barcelona", 500, "/web/imatges/barcelonaproducto.jpg")'
                 await db.promiseQuery(sql)
-                sql = 'INSERT INTO productes (nom, descripcio, preu, imatge) VALUES ("Teclado", "Teclado Gaming", 50, "/web/imatges/teclado.jpg")'
+                sql = 'INSERT INTO productes (nom, descripcio, preu, imatge) VALUES ("Capri", "Viaje a Capri", 600, "/web/imatges/capriproducto.jpg")'
                 await db.promiseQuery(sql)
-                sql = 'INSERT INTO productes (nom, descripcio, preu, imatge) VALUES ("Ratón", "Ratón Gaming", 17, "/web/imatges/raton.jpg")'
+                sql = 'INSERT INTO productes (nom, descripcio, preu, imatge) VALUES ("Los Ángeles", "Viaje a los Ángeles", 900, "/web/imatges/angelesproducto.jpg")'
                 await db.promiseQuery(sql)
-                sql = 'INSERT INTO productes (nom, descripcio, preu, imatge) VALUES ("Silla", "Silla Gaming", 150, "/web/imatges/silla.jpg")'
+                sql = 'INSERT INTO productes (nom, descripcio, preu, imatge) VALUES ("Chile", "Viaje a Chile", 800, "/web/imatges/chileproducto.jpg")'
                 await db.promiseQuery(sql)
             } catch (e) {
                 console.error(e)
