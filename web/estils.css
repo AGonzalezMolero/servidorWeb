@@ -389,6 +389,84 @@ body > #frontendProductes > #productesContinguts {
     display: inline-block;
     border-radius: 3px;
 }
+
+.lista-viajes .viaje4{
+    padding: 30px;
+    border-radius: 5px;
+    background: #d5d5d5;
+    background-image: url('https://images.pexels.com/photos/2263683/pexels-photo-2263683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    transition: .3s all;
+    color: whitesmoke;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.lista-viajes .viaje4:hover{
+    box-shadow: 1px 1px 4px #000;
+}
+
+.lista-viajes .viaje4 h4{
+    font-size: 30px;
+
+}
+
+.lista-viajes .viaje4 p{
+    margin-bottom: 10px;
+
+}
+
+
+.lista-viajes .viaje4 a{
+    color: #ffffff;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #df3838;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.lista-viajes .viaje5{
+    padding: 30px;
+    border-radius: 5px;
+    background: #d5d5d5;
+    background-image: url('https://images.pexels.com/photos/2017747/pexels-photo-2017747.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    transition: .3s all;
+    color: whitesmoke;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.lista-viajes .viaje5:hover{
+    box-shadow: 1px 1px 4px #000;
+}
+
+.lista-viajes .viaje5 h4{
+    font-size: 30px;
+
+}
+
+.lista-viajes .viaje5 p{
+    margin-bottom: 10px;
+
+}
+
+
+.lista-viajes .viaje5 a{
+    color: #ffffff;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #df3838;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 3px;
+}
 /* Cierre cajita de viajes */
 
 /* Footer */
